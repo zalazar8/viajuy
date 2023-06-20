@@ -1,0 +1,47 @@
+.hero-container {
+    background: url('../images/home.jpg');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+    top: -80px;
+}
+
+.hero-container h1 {
+    color: #fff;
+    font-size: 100px;
+    -webkit-text-stroke: 3px #000;
+}
+
+.hero-container p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    -webkit-text-stroke: 2px #000;
+
+}
+
+.hero-btns {
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container h1 {
+        font-size: 50px;
+    }
+
+    .hero-container p {
+        font-size: 30px;
+    }
+}

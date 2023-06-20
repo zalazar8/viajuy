@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.home,
+.services,
+.hotels,
+.signup {
+    display: flex;
+    height: 92vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.services {
+    background-image: url('../src/images/salinas.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.hotels {
+    background-image: url('../src/images/maymara.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+.signup {
+    background-image: url('../src/images/cuevas.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
